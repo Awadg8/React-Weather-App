@@ -48,7 +48,7 @@ function App () {
 
         <div className=' absolute top-0 left-0 w-full h-full bg-black/20 z-1'></div>
 
-        <div className=' bg-black/70 text-white rounded-lg shadow-lg p-8 max-w-md w-full z-10'>
+        <div className=' bg-black/70 text-white rounded-lg shadow-lg p-8 max-w-md w-[90%] md:w-full z-10'>
           <h1 className=' text-3xl font-bold text-center mb-6'>Weather App</h1>
 
           <SearchBar fetchWeather={fetchWeather} />
